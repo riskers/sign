@@ -1,7 +1,7 @@
 {
   "name": "sign",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "http://github.com/sign",
   "dependencies": {
     "@types/jest": "24.0.11",
     "@types/node": "11.11.0",
