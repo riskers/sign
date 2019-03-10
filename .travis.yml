@@ -14,7 +14,7 @@ install:
   - yarn
 
 script:
-  - npm build
+  - yarn build
 
 after_script:
   - cd build
