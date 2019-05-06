@@ -1,7 +1,7 @@
 {
   "name": "sign",
   "version": "0.1.0",
-  "homepage": "http://github.com/sign",
+  "homepage": "http://github.com/riskers/sign",
   "dependencies": {
     "@types/jest": "24.0.11",
     "@types/node": "11.11.0",
@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .ts,.tsx",
+    "precommit": "npm run lint"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,6 +31,15 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/dom-to-image": "^2.6.0"
+    "@types/dom-to-image": "^2.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "husky": "^2.2.0",
+    "prettier": "1.17.0",
+    "pretty-quick": "^1.10.0",
+    "typescript-eslint-parser": "^22.0.0"
   }
 }
